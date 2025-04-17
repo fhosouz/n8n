@@ -1,0 +1,14 @@
+N8N_HOST=<IP publico da instancia EC2. Exemplo:52.67.100.210>
+N8N_PORT=5678
+N8N_PROTOCOL=http
+
+# Autenticação básica
+N8N_BASIC_AUTH=true
+N8N_BASIC_AUTH_USER=admin
+N8N_BASIC_AUTH_PASSWORD=senha123
+N8N_SECURE_COOKIE=false
+
+# Optional timezone to set which gets used by Cron and other scheduling nodes
+GENERIC_TIMEZONE=America/Sao_Paulo
+
+# DATA_FOLDER=/home/node/.n8n
